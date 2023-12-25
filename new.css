@@ -43,6 +43,17 @@ nav {
   background-size: max(1200px, 100vw);
   background-repeat: no-repeat;
 }
+.btn {
+  padding: 10px;
+  background: rgb(222, 220, 103);
+  color: rgb(132, 98, 89);
+  border: 2px solid rgb(235, 31, 31);
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
 
 nav ul {
   display: flex;
