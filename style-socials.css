@@ -1,15 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
 
-/*========== VARIABLES CSS ==========*/
 :root {
-  /*========== Colors ==========*/
+
   --first-color: #4d49bf;
   --second-color: #05dbf2;
   --body-color: #dfe9f2;
   --title-color: #1c1c22;
   --text-color: #58576b;
 
-  /*========== Font and typography ==========*/
+
   --body-font: "Montserrat", sans-serif;
   --normal-font-size: 0.938rem;
   --h3-font-size: 1.125rem;
@@ -24,20 +23,6 @@
   }
 }
 
-/*========== BASE ==========*/
-*,
-::before,
-::after {
-  box-sizing: border-box;
-}
-
-/* body{
-  margin: 0;
-  padding: 0;
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-} */
-
 h3 {
   margin: 0;
 }
@@ -51,21 +36,6 @@ img {
   height: auto;
 }
 
-/* .bd-container {
-  max-width: 968px;
-
-  width: calc(100% - 3rem);
-  margin-left: 2.5rem;
-  margin-right: 1.5rem;
-} */
-
-/*========== CARD GLASS ==========*/
-/* .card {
-  position: relative;
-  overflow: hidden;
-  padding: 3rem 0;
-  background-color: var(--body-color);
-} */
 
 .card__container {
   display: grid;
@@ -74,26 +44,18 @@ img {
 
 .card__glass {
   position: relative;
-  margin-top: -167px;
-  margin-left: 0.5rem;
-  overflow: hidden;
+  margin-top: 15.5rem;
+  margin-left: 37.4rem;
   text-align: center;
   padding: 5rem;
-  /* background: linear-gradient(
-    130deg,
-    rgba(251, 251, 254, 0.6),
-    rgba(251, 251, 254, 0.2)
-  ); */
-  background: #9fcdf6;
-  box-shadow: inset 2px 2px 1px rgba(251, 251, 254, 0.3) inset -2px -2px 1px
-    rgba(251, 251, 254, 0.2);
+  background-color: #dfdbd4;
   border-radius: 1.5rem;
-  backdrop-filter: blur(10px);
+
 }
 
 .card__img {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   border: 2px solid #f4f4fb;
   margin-bottom: 1rem;
@@ -112,8 +74,8 @@ img {
 
 .card__profession {
   font-size: 8px
-  color: var(--text-color);
-  font-weight: 500;
+  color:var(--text-color);
+  font-weight:500;
 }
 
 .card__button {
