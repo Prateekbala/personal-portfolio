@@ -1,0 +1,1 @@
+Hi , I just made my first website using HTML CSS and basic Javascript . I hope you will find it good .I did't focused much on the UI/Ux part but i tried to learn new things in CSS and HTML part and tried  to implement it .
