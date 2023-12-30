@@ -37,12 +37,13 @@ nav {
   position: relative;
   height: 90vh;
   width: 100vw;
-  background-image: url("images/img2.webp");
+  background-image: url("images/img12.jpg");
   /* filter: blur(0.8px); */
   background-position: center center;
   background-size: max(1200px, 100vw);
   background-repeat: no-repeat;
 }
+
 .btn {
   padding: 10px;
   background: rgb(222, 220, 103);
@@ -53,7 +54,6 @@ nav {
   cursor: pointer;
   margin-top: 15px;
 }
-
 
 nav ul {
   display: flex;
@@ -91,8 +91,8 @@ nav ul li a:hover {
 }
 .right img {
   width: 100%;
-  margin-top: 91px;
-  margin-left: -140px;
+  margin-top: 49px;
+  margin-left: -75px;
 }
 .inside-first {
   position: absolute;
@@ -111,3 +111,10 @@ nav ul li a:hover {
 #element {
   color: rgb(170, 107, 228);
 }
+@media  (max-width: 680px) {
+  .card__glass {
+    margin-top: 0.5rem;
+    margin-left: -4.61rem;
+  }
+}
+
