@@ -125,7 +125,7 @@ nav ul li a:hover {
   color: aliceblue;
   font-size: 1.4rem;
   margin-top: 11px;
-  margin-left: 60rem;
+  margin-left: 37rem;
 }
 .linkedin {
   max-width: 20px;
@@ -142,4 +142,9 @@ nav ul li a:hover {
   margin-top: 16px;
   margin-left: -60px;
 }
-
+@media screen and (max-width: 1097px) {
+  .card__glass {
+    margin-top: 7.5rem;
+    margin-left: -1.600000014rem;
+  }
+}
