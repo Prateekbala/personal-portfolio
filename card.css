@@ -2,26 +2,30 @@ body {
   color: #333;
 }
 .skill {
+  display: flex;
+  position: relative;
+  flex-direction: column;
   list-style: none;
   padding: 0;
   margin: 100px 60px;
   width: 400px;
-  color: #f3a2a2;
-  padding: 20px;
-  height: 50px;
-  
+  color: #ccc7c7;
+  padding: 0.8rem;
+  height: 24rem;
+
   /* box-shadow: 0 14px 28px rgba(50, 24, 24, 0.25),
     0 10px 10px rgba(0, 0, 0, 0.22); */
 }
 h1 {
   text-align: center;
+  margin-top: -3rem;
 }
 h3 {
   margin: 5px;
 }
 .skill li {
   padding: 10px;
-  margin: 20px 0;
+  margin: 9px 0;
 }
 .bar {
   background: #353b48;
